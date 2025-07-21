@@ -27,9 +27,9 @@
       href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.core.min.css"
     />
   </head>
-  <body>
-    <div class="container bg-gray-900 h-[100vh] max-w-[1520px]">
-      <div class="hero-header bg-gray-200 h-[720px] relative z-10">
+  <body class=" bg-gray-900">
+    
+      <div class="container hero-header bg-gray-200 h-[720px] relative z-10">
         <div
           class="header h-[120px] px-4 sm:px-10 md:px-20 flex justify-between items-center p-3 relative z-10"
         >
@@ -48,7 +48,7 @@
         </div>
         <!-- Hero Section Start -->
         <div
-          class="hero h-[583px] relative z-10 flex justify-center items-center gap-[2rem] flex-col"
+          class="container hero h-[583px] relative z-10 flex justify-center items-center gap-[2rem] flex-col"
         >
           <div
             class="hero-des w-full text-center max-w-[558px] h-[140px] text-4xl sm:text-5xl md:6xl font-extrabold text-white relative z-10 leading-[50px]"
@@ -63,7 +63,7 @@
             membership.
           </p>
           <div class="subscribe-email flex gap-[1rem]">
-            <div class="subscribe-container relative max-w-[300px]">
+            <div class="subscribe-container-first relative w-[250px] sm:w-[320px] md:w-[350px] lg:w-[400px]">
               <input
                 id="email"
                 name="email"
@@ -79,17 +79,17 @@
               </label>
             </div>
             <button
-              class="gs-btn bg-red-600 hover:bg-red-500 cursor-pointer text-[24px] text-white px-4 py-3 md:px-4 md:py-2 text-sm rounded-md z-10"
-            >
-              Get Started >
-            </button>
+  class="gs-btn bg-red-600 hover:bg-red-500 cursor-pointer text-base sm:text-md md:text-xl lg:text-2xl text-white px-4 py-3 md:px-6 md:py-3 rounded-md w-full sm:w-auto"
+>
+  Get Started >
+</button>
           </div>
         </div>
         <!-- Hero Section End -->
       </div>
       <!-- Trending now section Start -->
 
-      <section class="mt-10 max-w-[1520px] mx-auto px-4">
+      <section class="container mt-10 max-w-[1520px] mx-auto px-4">
         <h2 class="text-white text-2xl font-semibold mb-4">Trending Now</h2>
 
         <div class="glide">
@@ -233,7 +233,7 @@
 
       <!-- Trending now section End -->
       <!-- Reasons to join Netflix Section Start -->
-      <section class="reason-to-join h-auto bg-gray-950 p-16">
+      <section class="container reason-to-join h-auto bg-gray-950 p-16">
         <h2 class="py-3 text-[24px] text-left sm:10px md:14px lg:18px w-[850px]  text-white">More Reasons To Join</h2>
         <div
           class="reason-container grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 py-6"
@@ -327,7 +327,7 @@
       </section>
       <!-- Reasons to join Netflix Section End -->
       <!-- FAQ Section Start -->
-      <section class="faq-section text-white overflow-x-hidden px-4 sm:px-8">
+      <section class="container faq-section text-white overflow-x-hidden px-4 sm:px-8">
        <h2 class="text-[1.1rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.6rem] font-bold py-5 px-4 sm:px-8 md:px-12">
   Frequently Asked Questions
 </h2>
@@ -511,7 +511,7 @@
       </section>
       <!-- FAQ Section End -->
       <!-- CTA Section Start -->
-       <section class="cta-section flex flex-col items-center gap-4 px-6 sm:px-10  md:justify-center md:gap-6 lg:gap-[1.2rem]">
+       <section class="container cta-section flex flex-col items-center gap-4 px-6 sm:px-10  md:justify-center md:gap-6 lg:gap-[1.2rem]">
 
         <p class="membership-email text-white text-[1rem] text-center">
             Ready to watch? Enter your email to create or restart your
@@ -541,10 +541,10 @@
           </div>
        </section>
       <!-- CTA section End -->
-      <section class="contact-us-section mt-[5rem] text-[#dadada] px-4 sm:px-10 lg:px-12  ">
+      <section class="container contact-us-section mt-[5rem] text-[#dadada] px-4 sm:px-10 lg:px-12  ">
         <a class="underline   py-2.5" href="">Questions? Contact Us</a>
       </section>
-<footer class="text-[#dadadabb] px-4 sm:px-10 lg:px-12 mt-10 max-w-6xl mx-auto">
+<footer class="text-[#dadadabb] .container px-4 sm:px-10 lg:px-12 mt-10 max-w-6xl mx-auto">
   <div class="foot-nav">
     <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-[14px] underline">
       <li>FAQ</li>
@@ -580,7 +580,7 @@
   </div>
 </footer>
 
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
     <script>
       new Glide(".glide", {
