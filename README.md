@@ -20,7 +20,8 @@ A responsive Netflix homepage clone built using **HTML**, **Tailwind CSS**, and 
 ## 🛠️ Built With
 
 - **HTML5**
-- **Tailwind CSS**
+- **CSS3**
+- **Tailwind CSS4**
 - **JavaScript** (minimal)
 - **Vercel** for deployment
 
