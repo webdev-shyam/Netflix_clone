@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Netflix Myanmar (Burma) - Watch TV Shows Online, Watch Movies Online
+    </title>
+    <link
+      rel="shortcut icon"
+      href="Assets/Images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Link to external CSS along with tailwind CSS -->
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- Link to CDN fontawesome icon Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link to GlideJS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.core.min.css"
+    />
+  </head>
+  <body>
+    <div class="container bg-gray-900 h-[100vh] max-w-[1520px]">
+      <div class="hero-header bg-gray-200 h-[720px] relative z-10">
+        <div
+          class="header h-[120px] px-4 sm:px-10 md:px-20 flex justify-between items-center p-3 relative z-10"
+        >
+          <div class="logo">
+            <img
+              class="h-[80px] w-[200px]"
+              src="/Assets/Images/imgi_2_Netflix_Logo_PMS (1).png"
+              alt="Netflix_logo"
+            />
+          </div>
+          <button
+            class="bg-red-600 hover:bg-red-500 cursor-pointer text-white px-3 py-1 md:px-4 md:py-2 text-sm rounded-md z-10"
+          >
+            Sign In
+          </button>
+        </div>
+        <!-- Hero Section Start -->
+        <div
+          class="hero h-[583px] relative z-10 flex justify-center items-center gap-[2rem] flex-col"
+        >
+          <div
+            class="hero-des w-full text-center max-w-[558px] h-[140px] text-4xl sm:text-5xl md:6xl font-extrabold text-white relative z-10 leading-[50px]"
+          >
+            Unlimited movies, TV shows, and more
+            <p class="text-2xl font-bold text-center pt-5 text-[1.4rem]">
+              Starts at USD 2.99. Cancel anytime.
+            </p>
+          </div>
+          <p class="membership-email text-white text-[1rem] text-center">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="subscribe-email flex gap-[1rem]">
+            <div class="subscribe-container relative max-w-[300px]">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder=" "
+                class="peer h-[60px] w-full border-2 border-gray-300 rounded-md bg-transparent px-4 pt-6 text-white placeholder-transparent focus:outline-none focus:border-blue-50"
+              />
+              <label
+                for="email"
+                class="absolute left-4 top-4 text-gray-400 text-sm transition-all peer-placeholder-shown:top-5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:top-2 peer-focus:text-[0.75rem] peer-focus:text-gray-100 peer-focus:border-gray-100"
+              >
+                Email address
+              </label>
+            </div>
+            <button
+              class="gs-btn bg-red-600 hover:bg-red-500 cursor-pointer text-[24px] text-white px-4 py-3 md:px-4 md:py-2 text-sm rounded-md z-10"
+            >
+              Get Started >
+            </button>
+          </div>
+        </div>
+        <!-- Hero Section End -->
+      </div>
+      <!-- Trending now section Start -->
+
+      <section class="mt-10 max-w-[1520px] mx-auto px-4">
+        <h2 class="text-white text-2xl font-semibold mb-4">Trending Now</h2>
+
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <!-- Slide 1 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_21_AAAABeysJ_o0Fqo2Esnk8H3hp3V1VarIGpeg_GoiaL3A4_BLVb29OEEM1b17gQxKFblxZaEl42kzUG8QkRINoZ4HHxAN8N-WoN_YF_fcPYgiIiq03s81yru4DEvGn7SiPnW5 (1).webp"
+                    alt="Movie 1"
+                  />
+                  <span class="img-num">1</span>
+                </div>
+              </li>
+              <!-- Slide 2 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_22_AAAABRS_77dhhj6XpMj91rPiEI2g7XGUysu1g0vGaXZNPTTscsBMNJY9OdDkVNsd-Z5CsSX7cdyWSqOjJNRjrWnOBuF4U-MUz7hlmGtIm6gwf_9vAl3_3dpZyOc8EMKt0pxK (1).webp"
+                    alt="Movie 2"
+                  />
+                   <span class="img-num">2</span>
+                </div>
+              </li>
+              <!-- Slide 3 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_23_AAAABe_oRiE-uHF5BxTNucL9IUKqffENSXu1g3UqTHkoqkSWtVbU7E1t3EelyG8CJ3vnCtBZvV3RqKEPajyBuhW5i-l20HeobOOGbChHsqIO3L072A-czMgAxo8KSq09cHWt (1).webp"
+                    alt="Movie 3"
+                  />
+                   <span class="img-num">3</span>
+                </div>
+              </li>
+              <!-- Slide 4 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_24_AAAABXlTJC9ICP8arHRu9DzLI5GAEcyRHXgvp-d-eK1pUKQsMhC-UF6YQIgFhyfTlzTg2ZVIRPEfxlNOlOmGIFDlhjA4NF1KDrx9bd4 (1).webp"
+                    alt="Movie 4"
+                  />
+                   <span class="img-num">4</span>
+                </div>
+              </li>
+              <!-- Slide 5 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_25_AAAABWKbyb18z3TX-0ZUodajbXjKxh_tIu0A3GLcp4bWLLVYmIxKcz3EExSID7HLv8tyYLzyZGzORBPBgbrMnktyQV6ta7CXnN-sH6ZIWr4FvnW2wbSXcmecmNlfZ227y9_Y (1).webp"
+                  />
+                   <span class="img-num">5</span>
+                </div>
+              </li>
+              <!-- Slide 6 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_26_AAAABeYDkXYqNf2n1AQPKaGdpv6Eax8MYoyVafRllGW0z_2Iz4GR52cQVVw1o34ncsYcPnExLTL4oKjM2nvEQQXHpqYKZ3pqISPZOt8 (1).webp"
+                  />
+                   <span class="img-num">6</span>
+                </div>
+              </li>
+              <!-- Slide 7 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_27_AAAABfrQ-ytQxZb4vAuUegqLRC6Mzo4qEMKBNKiYSsEqK16hUyXOUO2f7CZchxO_b4lhknmpf0C2ocJMYF1jChy3YpV3M5Osq7oVADhGKdJWQyaHA50EtvmM0TdxspGTAbQQ (1).webp"
+                  />
+                   <span class="img-num">7</span>
+                </div>
+              </li>
+              <!-- Slide 8 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_28_AAAABU73BvQjJgydQFEJ-vZZw9QtO8fL6lIxc71x9tOqxgDWh_BHokCWPIbGC5AxJjDk0D_sIH5KhmmYm9HLr3DKUXg8eo6nzF0rtSI (1).webp"
+                  />
+                   <span class="img-num">8</span>
+                </div>
+              </li>
+              <!-- Slide 9 -->
+              <li class="glide__slide">
+                <div
+                  class="bg-gray-800 p-2 rounded-md hover:scale-105 transition duration-300"
+                >
+                  <img
+                    class="rounded-md w-full h-auto object-cover"
+                    src="/Assets/Images/imgi_29_AAAABbTULLazz8smZxtOe7P7i-Ot2JxaaKi4kribIhOQkx7d-U40RW4mHG2Rh_mczU6Pxe4hfWdgtqq6kZnrW-iCpAm4gAisr2gti5NHgoQs1RP_4u4eSnCbQf_Q1YNF1mih (1).webp"
+                  />
+                   <span class="img-num">9</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Navigation Arrows -->
+          <div
+            class="glide__arrows mt-4 flex justify-between w-full"
+            data-glide-el="controls"
+          >
+            <button
+              class="glide__arrow glide__arrow--left bg-gray-700 text-white px-4 py-2 rounded-full"
+              data-glide-dir="<"
+            >
+              ‹
+            </button>
+            <button
+              class="glide__arrow glide__arrow--right bg-gray-700 text-white px-4 py-2 rounded-full"
+              data-glide-dir=">"
+            >
+              ›
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending now section End -->
+      <!-- Reasons to join Netflix Section Start -->
+      <section class="reason-to-join h-auto bg-gray-950 p-16">
+        <h2 class="py-3 text-[24px] text-left sm:10px md:14px lg:18px w-[850px]  text-white">More Reasons To Join</h2>
+        <div
+          class="reason-container grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 py-6"
+        >
+          <div
+            class="reason-box h-auto min-h-[180px] md:min-h-[280px]  relative bg-gradient-to-b from-[#1E1B2A] to-[#1F1425] shadow-lg w-full lg:max-w-[308px] text-white rounded-lg"
+          >
+            <h2 class="text-[24px]">Enjoy on your TV</h2>
+            <p class="card-des">
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+            <svg
+              class="absolute h-[50px] w-[50px] bottom-3 text-purple-400 right-0 pt-2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
+              />
+            </svg>
+          </div>
+          <div
+            class="reason-box h-auto min-h-[180px] md:min-h-[280px] relative bg-gradient-to-b from-[#1E1B2A] to-[#1F1425] shadow-lg w-full lg:max-w-[308px] text-white rounded-lg"
+          >
+            <h2 class="text-[24px]">Download your shows to watch offline</h2>
+            <p class="card-des">
+              Save your favorites easily and always have something to watch.
+            </p>
+            <svg
+              class="absolute h-[50px] w-[50px] bottom-3 text-purple-400 right-0 pt-2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </div>
+          <div
+            class="reason-box h-auto min-h-[180px] md:min-h-[280px] relative bg-gradient-to-b from-[#1E1B2A] to-[#1F1425] shadow-lg w-full lg:max-w-[308px] text-white rounded-lg"
+          >
+            <h2 class="text-[24px]">Watch everywhere</h2>
+            <p class="card-des">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+            <img
+              class="absolute h-[40px] w-[40px] bottom-3 text-purple-400 bg-purple-400 rounded-full right-1 pt-2"
+              src="Assets/Images/download.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="reason-box h-auto min-h-[180px] md:min-h-[280px] relative bg-gradient-to-b from-[#1E1B2A] to-[#1F1425] shadow-lg w-full lg:max-w-[308px] text-white rounded-lg"
+          >
+            <h2 class="text-[24px]">Create profiles for kids</h2>
+            <p class="card-des">
+              Send kids on adventures with their favorite characters in a space
+              made just for them — free with your membership.
+            </p>
+            <svg
+              class="absolute h-[50px] w-[50px] bottom-3 text-purple-400 right-0 pt-2"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!-- Reasons to join Netflix Section End -->
+      <!-- FAQ Section Start -->
+      <section class="faq-section text-white overflow-x-hidden px-4 sm:px-8">
+       <h2 class="text-[1.1rem] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.6rem] font-bold py-5 px-4 sm:px-8 md:px-12">
+  Frequently Asked Questions
+</h2>
+
+        <div
+          class="w-full max-w-2xl mx-auto divide-y divide-gray-600 bg-[#1D162C] rounded-md px-4 py-5 sm:px-6 md:px-8 m-2 "
+        >
+          <!-- FAQ Item -->
+          <div class="py-4 ">
+            <button
+              class="w-full text-left flex  justify-between items-center text-white font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-[1rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.4rem]"
+                >What is Netflix?</span
+              >
+              <svg
+                class="w-5 h-5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer mt-2 text-gray-400 hidden transition-all duration-300 ease-in-out">
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries, and more on
+              thousands of internet-connected devices. You can watch as much as
+              you want, whenever you want without a single commercial – all for
+              one low monthly price. There's always something new to discover
+              and new TV shows and movies are added every week!
+            </div>
+          </div>
+          <div class="py-4 ">
+            <button
+              class="w-full text-left flex justify-between items-center text-white font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-[1rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.4rem]">How Much Does Netflix Cost?</span>
+              <svg
+                class="w-5 h-5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer mt-2 text-gray-400 hidden transition-all duration-300 ease-in-out">
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              USD 2.99 to USD 9.99 a month. No extra costs, no contracts.
+            </div>
+          </div>
+          <div class="py-4 ">
+            <button
+              class="w-full text-left flex justify-between items-center text-white font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-[1rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.4rem]">Where can I watch?</span>
+              <svg
+                class="w-5 h-5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer mt-2 text-gray-400 hidden transition-all duration-300 ease-in-out">
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming
+              media players and game consoles. You can also download your
+              favorite shows with the iOS or Android app. Use downloads to watch
+              while you're on the go and without an internet connection. Take
+              Netflix with you anywhere.
+            </div>
+          </div>
+          <div class="py-4 ">
+            <button
+              class="w-full text-left flex justify-between items-center text-white font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-[1rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.4rem]">How do I cancel?</span>
+              <svg
+                class="w-5 h-5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer mt-2 text-gray-400 hidden transition-all duration-300 ease-in-out">
+              Netflix is flexible. There are no pesky contracts and no
+              commitments. You can easily cancel your account online in two
+              clicks. There are no cancellation fees – start or stop your
+              account anytime.
+            </div>
+          </div>
+          <div class="py-4 ">
+            <button
+              class="w-full text-left flex justify-between items-center text-white font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-[1rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.4rem]">What can I watch on Netflix?</span>
+              <svg
+                class="w-5 h-5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer mt-2 text-gray-400 hidden transition-all duration-300 ease-in-out">
+              Netflix has an extensive library of feature films, documentaries,
+              TV shows, anime, award-winning Netflix originals, and more. Watch
+              as much as you want, anytime you want.
+            </div>
+          </div>
+          <div class="py-4 ">
+            <button
+              class="w-full text-left flex justify-between items-center text-white font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-[1rem] sm:text-[1.2rem] md:text-[1.3rem] lg:text-[1.4rem]">Is Netflix good for kids?</span>
+              <svg
+                class="w-5 h-5 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div class="faq-answer mt-2 text-gray-400 hidden transition-all duration-300 ease-in-out">
+              The Netflix Kids experience is included in your membership to give
+              parents control while kids enjoy family-friendly TV shows and
+              movies in their own space. Kids profiles come with PIN-protected
+              parental controls that let you restrict the maturity rating of
+              content kids can watch and block specific titles you don’t want
+              kids to see.
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- FAQ Section End -->
+      <!-- CTA Section Start -->
+       <section class="cta-section flex flex-col items-center gap-4 px-6 sm:px-10  md:justify-center md:gap-6 lg:gap-[1.2rem]">
+
+        <p class="membership-email text-white text-[1rem] text-center">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="subscribe-email flex gap-[1rem]">
+            <div class="subscribe-container relative w-full flex flex-col items-center gap-4 md:flex-row md:w-[450px] lg:w-[550px]">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder=" "
+                class="peer h-[60px] w-full border-2 border-gray-300 rounded-md bg-transparent px-4 pt-6 text-white placeholder-transparent focus:outline-none focus:border-blue-50"
+              />
+              <label
+                for="email"
+                class="absolute left-4 top-4 text-gray-400 text-sm transition-all peer-placeholder-shown:top-5 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:top-2 peer-focus:text-[0.75rem] peer-focus:text-gray-100 peer-focus:border-gray-100"
+              >
+                Email address
+              </label>
+            </div>
+           <button
+  class="gs-btn bg-red-600 hover:bg-red-500 cursor-pointer text-base sm:text-md md:text-xl lg:text-2xl text-white px-4 py-3 md:px-6 md:py-3 rounded-md w-full sm:w-auto"
+>
+  Get Started >
+</button>
+          </div>
+       </section>
+      <!-- CTA section End -->
+      <section class="contact-us-section mt-[5rem] text-[#dadada] px-4 sm:px-10 lg:px-12  ">
+        <a class="underline   py-2.5" href="">Questions? Contact Us</a>
+      </section>
+<footer class="text-[#dadadabb] px-4 sm:px-10 lg:px-12 mt-10 max-w-6xl mx-auto">
+  <div class="foot-nav">
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-[14px] underline">
+      <li>FAQ</li>
+      <li>Investor Relations</li>
+      <li>Privacy</li>
+      <li>Speed Test</li>
+      <li>Help Center</li>
+      <li>Jobs</li>
+      <li>Cookie Preferences</li>
+      <li>Legal Notices</li>
+      <li>Account</li>
+      <li>Ways to Watch</li>
+      <li>Corporate</li>
+      <li>Only On Netflix</li>
+      <li>Media Center</li>
+      <li>Terms of Use</li>
+      <li>Contact Us</li>
+    </ul>
+  </div>
+
+  <div class="mt-10 space-y-4 px-4 sm:px-0">
+    <select class="bg-gray-900 text-blue-300 px-4 py-2 rounded">
+      <option>English</option>
+      <option>Myanmar</option>
+    </select>
+
+    <p class="text-[14px] ">Netflix Myanmar (Burma)</p>
+
+    <p class="text-[13px] ">
+      This page is protected by Google reCAPTCHA to ensure you're not a bot.
+      <a href="#" class="underline text-blue-400">Learn More</a>
+    </p>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        perView: 4,
+        gap: 20,
+        breakpoints: {
+          1024: { perView: 4 },
+          768: { perView: 3 },
+          480: { perView: 1 },
+        },
+      }).mount();
+
+      function toggleFaq(btn) {
+        const answer = btn.nextElementSibling;
+        const icon = btn.querySelector("svg");
+
+        answer.classList.toggle("hidden");
+        icon.classList.toggle("rotate-180"); // optional rotate effect
+      }
+    </script>
+  </body>
+</html>
