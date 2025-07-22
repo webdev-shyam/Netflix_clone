@@ -950,6 +950,7 @@ body {
 @media screen and (max-width: 639px) {
   .subscribe-email {
     flex-direction: column;
+    margin-top: 1rem;
   }
   .subscribe-container-first {
     width: 300px;
@@ -960,6 +961,9 @@ body {
     font-size: 1.1rem;
     display: block;
     margin: auto;
+  }
+  .membership-email {
+    margin-top: 7rem;
   }
 }
 @property --tw-space-y-reverse {
